@@ -35,12 +35,17 @@ def plan(cones: list[dict]) -> list[dict]:
 
     # implement a planning algorithm to generate a path from the blue and yellow cones
 
+##################################################
+#Changes
+##################################################
+    n = min(len(blue), len(yellow))
 
+    for i in range(n):
+        mid_x = (blue[i][0] + yellow[i][0]) / 2
+        mid_y = (blue[i][1] + yellow[i][1]) / 2
 
-
-
-
-
+        path.append({"x": mid_x, "y": mid_y})
+##################################################
 
     return path
 
