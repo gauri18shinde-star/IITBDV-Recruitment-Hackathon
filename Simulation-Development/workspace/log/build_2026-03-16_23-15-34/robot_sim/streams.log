@@ -1,0 +1,46 @@
+[0.480s] Invoking command in '/home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim': PYTHONPATH=/home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sim build --build-base /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/build install --record /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/install.log --single-version-externally-managed install_data
+[0.639s] running egg_info
+[0.640s] creating ../../build/robot_sim/robot_sim.egg-info
+[0.640s] writing ../../build/robot_sim/robot_sim.egg-info/PKG-INFO
+[0.640s] writing dependency_links to ../../build/robot_sim/robot_sim.egg-info/dependency_links.txt
+[0.640s] writing entry points to ../../build/robot_sim/robot_sim.egg-info/entry_points.txt
+[0.640s] writing requirements to ../../build/robot_sim/robot_sim.egg-info/requires.txt
+[0.640s] writing top-level names to ../../build/robot_sim/robot_sim.egg-info/top_level.txt
+[0.640s] writing manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'
+[0.641s] reading manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'
+[0.641s] writing manifest file '../../build/robot_sim/robot_sim.egg-info/SOURCES.txt'
+[0.642s] running build
+[0.642s] running build_py
+[0.642s] creating /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/build
+[0.642s] creating /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/build/lib
+[0.642s] creating /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/build/lib/robot_sim
+[0.642s] copying robot_sim/__init__.py -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/build/lib/robot_sim
+[0.642s] copying robot_sim/roam.py -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/build/lib/robot_sim
+[0.642s] running install
+[0.642s] running install_lib
+[0.643s] creating /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/lib/python3.10/site-packages/robot_sim
+[0.643s] copying /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/build/lib/robot_sim/__init__.py -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/lib/python3.10/site-packages/robot_sim
+[0.643s] copying /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/build/lib/robot_sim/roam.py -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/lib/python3.10/site-packages/robot_sim
+[0.643s] byte-compiling /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/lib/python3.10/site-packages/robot_sim/__init__.py to __init__.cpython-310.pyc
+[0.643s] byte-compiling /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/lib/python3.10/site-packages/robot_sim/roam.py to roam.cpython-310.pyc
+[0.644s] running install_data
+[0.644s] creating /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/ament_index
+[0.644s] creating /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/ament_index/resource_index
+[0.644s] creating /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/ament_index/resource_index/packages
+[0.644s] copying resource/robot_sim -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/ament_index/resource_index/packages
+[0.644s] copying package.xml -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/robot_sim
+[0.644s] creating /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/robot_sim/urdf
+[0.644s] copying urdf/robot.gazebo -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/robot_sim/urdf
+[0.645s] copying urdf/robot.urdf -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/robot_sim/urdf
+[0.645s] copying urdf/colour.xacro -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/robot_sim/urdf
+[0.645s] creating /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/robot_sim/launch
+[0.645s] copying launch/spawn_robot.launch.py -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/robot_sim/launch
+[0.646s] copying launch/world.launch.py -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/robot_sim/launch
+[0.646s] creating /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/robot_sim/worlds
+[0.646s] copying worlds/world.sdf -> /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/share/robot_sim/worlds
+[0.646s] running install_egg_info
+[0.646s] Copying ../../build/robot_sim/robot_sim.egg-info to /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/lib/python3.10/site-packages/robot_sim-0.0.0-py3.10.egg-info
+[0.647s] running install_scripts
+[0.667s] Installing roam script to /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/lib/robot_sim
+[0.667s] writing list of installed files to '/home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/install.log'
+[0.696s] Invoked command in '/home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/src/robot_sim' returned '0': PYTHONPATH=/home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/install/robot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sim build --build-base /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/build install --record /home/gauri/racing/IITBDV-Recruitment-Hackathon/Simulation-Development/workspace/build/robot_sim/install.log --single-version-externally-managed install_data

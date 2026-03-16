@@ -1,0 +1,3 @@
+[console_scripts]
+roam = robot_sim.roam:main
+
